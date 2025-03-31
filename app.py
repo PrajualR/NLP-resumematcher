@@ -8,8 +8,7 @@ import docx2txt
 import io
 from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
-from typing import List, Dict, Tuple, Any, Optional
-
+from typing import List, Dict, Any
 
 class ResumeMatcherBERT:
     def __init__(self):
@@ -95,7 +94,6 @@ class ResumeMatcherBERT:
         """
         text = text.strip()
         sections = {}
-        text_lower = text.lower()
         lines = text.split('\n')
         header_indices = []
 

@@ -6,11 +6,8 @@ A powerful application that uses BERT embeddings to match resumes with job descr
 
 - **Semantic Matching**: Uses BERT embeddings to understand the context and meaning of text beyond simple keyword matching
 - **Multi-Format Support**: Processes resumes in PDF, DOCX, and TXT formats
-- **Long Document Handling**: Efficiently processes documents longer than BERT's token limit using a chunking strategy
-- **Smart Section Detection**: Identifies and analyzes different resume sections (skills, experience, education, etc.)
 - **Detailed Analysis**: Provides section-by-section similarity scores and overall match percentages
 - **User-Friendly Interface**: Clean Streamlit interface with progress indicators and expandable sections
-- **GPU Acceleration**: Automatically uses GPU for faster processing when available
 
 ## Installation
 

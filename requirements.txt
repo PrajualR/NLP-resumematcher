@@ -1,7 +1,11 @@
+streamlit
+transformers
+torch
+torchvision
+torchaudio --index-url https://download.pytorch.org/whl/cpu
 numpy
 pandas
 scikit-learn
-torch
-streamlit
 PyPDF2
 docx2txt
+regex
